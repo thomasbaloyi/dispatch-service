@@ -1,0 +1,94 @@
+# Scala/SBT
+target/
+.bsp/
+project/project/target/
+project/target/
+.metals/
+metals.sbt
+.bloop/
+.scala-build/
+
+# Maven
+.classpath
+.project
+.settings/
+bin/
+dist/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+.#*
+*#
+
+# Vim
+.vim/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS
+Thumbs.db
+*.log
+
+# Dependencies
+lib_managed/
+src_managed/
+
+# Testing
+.coverage
+
+# Mill
+out/
+
+# Coursier
+.coursier/
+
+# Node (if used for Scala.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if used for build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Misc
+*.jar
+*.class
+.env
+.env.local
+*.lock
